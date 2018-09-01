@@ -7,7 +7,6 @@ import com.student.entity.Student;
 
 public class Controller {
 	public static void main(String args[]) {
-
 		Student st = new Student();
 		st.setName("deepak");
 		st.setAddress("ABC");
@@ -22,7 +21,7 @@ public class Controller {
 		for (Student s : list) {
 			System.out.println(s.getId() + " " + s.getName() + " " + s.getAddress());
 		}
-		
+
 		Student userDetails = impl.getStudentByName("Deepak");
 
 	}
